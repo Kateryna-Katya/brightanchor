@@ -1,0 +1,70 @@
+.home-container{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.home-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.home-title{
+font-family: "Baloo 2", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #010101;
+}
+.home-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        gap: 16px;
+}
+.home-link{
+    border-radius: 24px;
+        padding: 10px;
+        width: 327px;
+        height: 63px;
+        background: #6d5439;
+font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease-in-out;
+}
+.home-link:hover{
+background: #634b32;
+}
+@media only screen and (min-width: 1440px) {
+ .home-container{
+    padding-top: 164px;
+    padding-bottom: 164px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+}
+.home-wrapper{
+    width: 530px;
+    gap: 40px;
+}
+.home-title{
+font-size: 60px;
+}
+.home-text-wrapper{
+        gap: 24px;
+}
+.home-link{
+padding: 10px 24px;
+    width: 411px;
+    height: 63px;
+font-size: 22px;
+} 
+}
