@@ -68,3 +68,56 @@ padding: 10px 24px;
 font-size: 22px;
 } 
 }
+/* Features That Make Learning Enjoyable */
+.features-section{
+    background: #6d5439;
+}
+.features-title{
+    color: #fff;
+}
+.features-wrapper-text{
+color: #fff;
+display: flex;
+flex-direction: column;
+gap: 20px;
+line-height: 1.28571;
+}
+@media only screen and (min-width: 1440px) {
+.features-wrapper-text {
+    width: 1280px;
+        gap: 10px;
+line-height: 1.2;
+    }
+}
+/* How Bright Kids Works */
+.how-container{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.how-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        gap: 16px;
+line-height: 1.28571;
+}
+@media only screen and (min-width: 1440px) {
+.how-container {
+padding: 100px 64px 0;
+        flex-direction: row-reverse;
+        gap: 64px;
+justify-content: center;
+    }
+.how-wrapper{
+    width: 548px;
+}
+.how-text-wrapper {
+        gap: 24px;
+line-height: 1.2;
+}
+}
